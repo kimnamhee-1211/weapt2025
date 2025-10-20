@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jul 01 20:42:57 KST 2025
+https\://maven.egovframe.go.kr/maven/.lastUpdated=1751370177463
+https\://repo.maven.apache.org/maven2/.lastUpdated=1751370177616
+https\://maven.egovframe.go.kr/maven/.error=
+https\://repo1.maven.org/maven2/.error=Could not transfer artifact org.antlr\:stringtemplate\:pom\:3.2.1 from/to mvn2s (https\://repo1.maven.org/maven2/)\: D\:\\ANB\\workspace_2025\\maven\\repository\\org\\antlr\\stringtemplate\\3.2.1\\stringtemplate-3.2.1.pom (\uC694\uCCAD\uD55C \uC791\uC5C5\uC740, \uC0AC\uC6A9\uC790\uAC00 \uB9E4\uD551\uD55C \uAD6C\uC5ED\uC774 \uC5F4\uB824 \uC788\uB294 \uC0C1\uD0DC\uC778 \uD30C\uC77C\uC5D0\uC11C \uC218\uD589\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4)
+@default-mvn2s-https\://repo1.maven.org/maven2/.lastUpdated=1751370177329

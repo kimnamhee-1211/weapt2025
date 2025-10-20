@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 07 22:22:14 KST 2025
+jersey-json-1.13.jar>mvn2s=
+jersey-json-1.13-sources.jar>mvn2s=
+jersey-json-1.13.pom>mvn2s=

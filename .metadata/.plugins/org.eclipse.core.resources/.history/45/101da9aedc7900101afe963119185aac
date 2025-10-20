@@ -1,0 +1,270 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/we_style.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/we_style_pop.css"/> 
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/fontello_we/css/animation.css" >
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/fontello_we/css/menu.css" >
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/script.js"></script>
+
+
+    <style>
+   
+  </style>
+  <title>종합관리솔루션</title>
+</head>
+<body style="background-color: #f4f4f9;">
+    <div id="index">
+        <div class="slider-container">
+            <div id="logo_area"> 공동주택 &#8226; 집합건물 관리를 위한<br><h1>&emsp;종합관리솔루션</h1> </div>
+            <div class="arrow left">&#10094;</div>
+            <div class="slider">
+                <div class="slider-track">
+                    <!-- 10개의 콘텐츠 -->
+                    <div class="item" id="">
+                    <span class="icon_back"><i class="icon-calendar-plus-o"></i></span><br>       
+                    일정관리
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-volume-control-phone"></i></span><br>       
+                    민원관리
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-chart-bar"></i></span><br>       
+                    관리일반
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-edit"></i></span><br>       
+                    행정관리
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-docs"></i></span><br>       
+                    일지결재
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-cubes"></i></span><br>       
+                    재고관리
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-cog-alt"></i></span><br>       
+                    장비관리
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-id-card-o"></i></span><br>       
+                    환경보안
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-recycle"></i></span><br>       
+                    장기수선
+                    </div>
+
+                    <div class="item">
+                    <span class="icon_back"><i class="icon-user-add"></i></span><br>       
+                    회의단체
+                    </div>
+
+                </div>
+            </div>
+            <div class="arrow right">&#10095;</div>
+            <div id="allmenu_area_space"> </div>
+            <div id="allmenu_area">
+                <input type="checkbox" id="allmenu_layer_popup" class="layer_popup" >
+                <label for="allmenu_layer_popup" class="pop_labal iconmenu">
+                    <h2><i class=" icon-menu-1"></i></h2>
+                    <h3>전체메뉴</h3>
+                </label>
+        
+                <!-- 팝업시작-->
+                <%@ include file = "popup/pop_allmenu.jsp" %>                    
+                <!-- 팝업끝-->
+            </div>
+        </div>
+
+        <div id="slider-container2">
+            <div class="slider-container2">
+                <div class="slides" id="slides">
+                    <div class="slide">
+                    <img src="https://via.placeholder.com/600x300?text=슬라이드+1" alt="슬라이드 1">
+                    일정관리는
+                    </div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+2" alt="슬라이드 2"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+3" alt="슬라이드 3"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+4" alt="슬라이드 4"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+5" alt="슬라이드 5"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+6" alt="슬라이드 6"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+7" alt="슬라이드 7"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+8" alt="슬라이드 8"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+9" alt="슬라이드 9"></div>
+                    <div class="slide"><img src="https://via.placeholder.com/600x300?text=슬라이드+10" alt="슬라이드 10"></div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="btn active" data-index="0">1</button>
+                <button class="btn" data-index="1">2</button>
+                <button class="btn" data-index="2">3</button>
+                <button class="btn" data-index="3">4</button>
+                <button class="btn" data-index="4">5</button>
+                <button class="btn" data-index="5">6</button>
+                <button class="btn" data-index="6">7</button>
+                <button class="btn" data-index="7">8</button>
+                <button class="btn" data-index="8">9</button>
+                <button class="btn" data-index="9">10</button>
+
+            </div>
+            
+        </div>
+        <div>
+
+<div id="login_aea">
+				<div class="login-container">
+					<h2>로그인</h2>
+					<form id="login-form">
+						<c:set var="title">
+							<spring:message code="comUatUia.loginForm.id" />
+						</c:set>
+						<div class="input-group">
+							<label for="username">${title}</label> <input type="text" id="id" name="id" placeholder="${title} ${inputTxt}" required maxlength="10">
+						</div>
+						<c:set var="title">
+							<spring:message code="comUatUia.loginForm.pw" />
+						</c:set>
+						<div class="input-group">
+							<label for="password">${title}</label> 
+							<input type="password" id="password" name="password" maxlength="12" placeholder="${title} ${inputTxt}" required>
+						</div>
+						
+						<c:set var="title">인증</c:set>
+						<div class="input-group">
+							<label for="captchaImage">${title}</label> 
+							<img id="captchaImage" class="captcha-image" src="" alt="CAPTCHA 이미지">
+							<input type="text" value="" name="captchaInput" id="captchaInput" maxlength="6">
+						</div>
+						
+						<c:set var="title">
+							<spring:message code="comUatUia.loginForm.idSave"/>
+						</c:set>
+						<div class="remember-me">
+							<input type="checkbox" name="checkId" id="checkId" ><label for="checkId">${title}</label>
+						</div>
+						<c:set var="title">
+							<spring:message code="comUatUia.loginForm.login"/>
+						</c:set>
+						<button type="button">${title}</button>
+					</form>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div id="footer_resize">
+        <div id="index_footer">
+            <div class="footer_left">
+                &nbsp;Copyright(c)&emsp;에이앤비솔루션(주)&emsp;All right Reserved.&emsp;Tel.031-905-6741&emsp;Fax.031-905-6740&emsp;
+                <a href="">[<i class="icon-phone-squared"></i>견적문의 031-905-6744 ]</a>&emsp;
+            </div>
+        </div>
+    </div>
+    <script>
+    const track = document.querySelector('.slider-track');
+    const leftBtn = document.querySelector('.arrow.left');
+    const rightBtn = document.querySelector('.arrow.right');
+
+    const itemWidth = 140; // 80px width + 25px margin
+    const totalItems = 10;
+    const visibleItems = 5;
+
+    let position = 0; // 현재 왼쪽에서 이동한 수
+
+    leftBtn.addEventListener('click', () => {
+        if (position > 0) {
+        position--;
+        track.style.transform = `translateX(-\${itemWidth * position}px)`;
+        }
+    });
+
+    rightBtn.addEventListener('click', () => {
+        if (position < totalItems - visibleItems) {
+        position++;
+        track.style.transform = `translateX(-\${itemWidth * position}px)`;
+        }
+    });
+    </script>
+
+    <script>
+    const slides = document.getElementById('slides');
+    const buttons = document.querySelectorAll('.btn');
+    let currentIndex = 0;
+    let autoSlide = true;
+    const totalSlides = buttons.length;
+
+    function showSlide(index) {
+        slides.style.transform = `translateX(-\${index * 100}%)`;
+        buttons.forEach(btn => btn.classList.remove('active'));
+        buttons[index].classList.add('active');
+        currentIndex = index;
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    }
+
+    let slideInterval = setInterval(() => {
+        if (autoSlide) nextSlide();
+    }, 3000); // 3초마다 전환
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+        const index = parseInt(button.getAttribute('data-index'));
+        autoSlide = false;
+        clearInterval(slideInterval);
+        showSlide(index);
+        });
+    });
+
+    
+    
+    </script>
+
+    <%--<script src="script.js">
+    // 페이지 로드 시 기억된 아이디 자동 입력
+    window.onload = function() {
+        if (localStorage.getItem('rememberMe') === 'true') {
+            document.getElementById('username').value = localStorage.getItem('username');
+            document.getElementById('remember-me').checked = true;
+        }
+    };
+
+    // 로그인 폼 제출 시 아이디 기억 여부 확인
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // 기본 제출 이벤트 방지
+
+        const username = document.getElementById('username').value;
+        const rememberMe = document.getElementById('remember-me').checked;
+
+        if (rememberMe) {
+            localStorage.setItem('username', username); // 아이디 저장
+            localStorage.setItem('rememberMe', 'true'); // "아이디 기억" 상태 저장
+        } else {
+            localStorage.removeItem('username'); // 아이디 삭제
+            localStorage.removeItem('rememberMe'); // "아이디 기억" 상태 삭제
+        }
+
+        // 로그인 후 처리 (예: 서버에 로그인 요청)
+        alert(`로그인 시도: \${username}`);
+    });
+    </script>--%>
+
+</body>
+</html>

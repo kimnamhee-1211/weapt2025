@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 07 22:02:58 KST 2025
+tomcat-dbcp-8.5.100.jar>mvn2s=
+tomcat-dbcp-8.5.100-sources.jar>mvn2s=
+tomcat-dbcp-8.5.100.pom>mvn2s=

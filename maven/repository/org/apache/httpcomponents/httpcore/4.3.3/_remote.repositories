@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jul 07 22:22:28 KST 2025
+httpcore-4.3.3-sources.jar>mvn2s=
+httpcore-4.3.3.pom>mvn2s=
+httpcore-4.3.3.jar>mvn2s=

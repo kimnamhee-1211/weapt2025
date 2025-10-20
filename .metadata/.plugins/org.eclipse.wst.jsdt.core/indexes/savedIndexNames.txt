@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\weapt_2025\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2160340854.index
+1620512734.index
+1313160476.index
+3325193063.index
+4275579665.index

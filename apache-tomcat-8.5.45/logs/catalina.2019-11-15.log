@@ -1,0 +1,364 @@
+15-Nov-2019 13:19:03.767 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+15-Nov-2019 13:19:03.772 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+15-Nov-2019 13:19:03.772 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+15-Nov-2019 13:19:03.772 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Nov-2019 13:19:03.773 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Nov-2019 13:19:03.773 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Nov-2019 13:19:03.773 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\eGovAnbs\bin\jdk1.8.0_221\jre
+15-Nov-2019 13:19:03.773 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+15-Nov-2019 13:19:03.774 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Nov-2019 13:19:03.774 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:19:03.774 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:19:03.775 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\eGovAnbs\bin\apache-tomcat-8.5.45\conf\logging.properties
+15-Nov-2019 13:19:03.777 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Nov-2019 13:19:03.778 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Nov-2019 13:19:03.780 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Nov-2019 13:19:03.781 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Nov-2019 13:19:03.784 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:19:03.786 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:19:03.787 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\eGovAnbs\bin\apache-tomcat-8.5.45\temp
+15-Nov-2019 13:19:03.789 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\eGovAnbs\bin\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseSVN\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\JCH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\ESTsoft\ALSee\x64;.]
+15-Nov-2019 13:19:04.011 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:19:04.764 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2019 13:19:04.781 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:19:04.786 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2019 13:19:04.788 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1453 ms
+15-Nov-2019 13:19:04.821 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Nov-2019 13:19:04.823 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+15-Nov-2019 13:19:04.835 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs]
+15-Nov-2019 13:19:05.498 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:19:05.560 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs] has finished in [724] ms
+15-Nov-2019 13:19:05.562 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples]
+15-Nov-2019 13:19:06.175 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:19:06.195 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+15-Nov-2019 13:19:06.198 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+15-Nov-2019 13:19:06.211 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples] has finished in [649] ms
+15-Nov-2019 13:19:06.213 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager]
+15-Nov-2019 13:19:06.535 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:19:06.547 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager] has finished in [334] ms
+15-Nov-2019 13:19:06.549 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager]
+15-Nov-2019 13:19:06.919 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:19:06.925 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager] has finished in [376] ms
+15-Nov-2019 13:19:06.928 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT]
+15-Nov-2019 13:19:07.189 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:19:07.194 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT] has finished in [267] ms
+15-Nov-2019 13:19:07.199 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:19:07.211 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:19:07.215 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2425 ms
+15-Nov-2019 13:23:54.396 정보 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Nov-2019 13:23:58.940 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+15-Nov-2019 13:23:58.945 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+15-Nov-2019 13:23:58.945 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+15-Nov-2019 13:23:58.945 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Nov-2019 13:23:58.945 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Nov-2019 13:23:58.946 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Nov-2019 13:23:58.946 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\eGovAnbs\bin\jdk1.8.0_221\jre
+15-Nov-2019 13:23:58.946 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+15-Nov-2019 13:23:58.946 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Nov-2019 13:23:58.947 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:23:58.947 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:23:58.949 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\eGovAnbs\bin\apache-tomcat-8.5.45\conf\logging.properties
+15-Nov-2019 13:23:58.950 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Nov-2019 13:23:58.952 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Nov-2019 13:23:58.956 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Nov-2019 13:23:58.957 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Nov-2019 13:23:58.959 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:23:58.960 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:23:58.962 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\eGovAnbs\bin\apache-tomcat-8.5.45\temp
+15-Nov-2019 13:23:58.965 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\eGovAnbs\bin\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseSVN\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\JCH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\ESTsoft\ALSee\x64;.]
+15-Nov-2019 13:23:59.171 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:23:59.187 심각 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+	Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		... 12 more
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+15-Nov-2019 13:23:59.194 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:23:59.197 심각 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+	Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		... 12 more
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+15-Nov-2019 13:23:59.203 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 735 ms
+15-Nov-2019 13:23:59.235 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Nov-2019 13:23:59.238 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+15-Nov-2019 13:23:59.249 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs]
+15-Nov-2019 13:23:59.847 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:24:00.526 경고 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [647] milliseconds.
+15-Nov-2019 13:24:00.549 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs] has finished in [1,300] ms
+15-Nov-2019 13:24:00.551 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples]
+15-Nov-2019 13:24:01.032 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:24:01.050 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+15-Nov-2019 13:24:01.051 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+15-Nov-2019 13:24:01.065 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples] has finished in [514] ms
+15-Nov-2019 13:24:01.066 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager]
+15-Nov-2019 13:24:01.326 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:24:01.334 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager] has finished in [268] ms
+15-Nov-2019 13:24:01.336 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager]
+15-Nov-2019 13:24:01.626 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:24:01.631 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager] has finished in [294] ms
+15-Nov-2019 13:24:01.632 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT]
+15-Nov-2019 13:24:01.866 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:24:01.872 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT] has finished in [240] ms
+15-Nov-2019 13:24:01.876 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2670 ms
+15-Nov-2019 13:24:01.884 심각 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:421)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+15-Nov-2019 13:24:01.889 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:24:01.891 정보 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:24:01.893 정보 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Nov-2019 13:24:01.912 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:24:01.915 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:24:01.917 정보 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:24:01.918 정보 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:24:51.771 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+15-Nov-2019 13:24:51.775 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+15-Nov-2019 13:24:51.775 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+15-Nov-2019 13:24:51.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Nov-2019 13:24:51.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Nov-2019 13:24:51.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Nov-2019 13:24:51.776 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\eGovAnbs\bin\jdk1.8.0_221\jre
+15-Nov-2019 13:24:51.777 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+15-Nov-2019 13:24:51.777 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Nov-2019 13:24:51.777 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:24:51.777 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:24:51.779 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\eGovAnbs\bin\apache-tomcat-8.5.45\conf\logging.properties
+15-Nov-2019 13:24:51.781 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Nov-2019 13:24:51.782 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Nov-2019 13:24:51.784 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Nov-2019 13:24:51.787 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Nov-2019 13:24:51.789 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:24:51.790 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:24:51.792 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\eGovAnbs\bin\apache-tomcat-8.5.45\temp
+15-Nov-2019 13:24:51.793 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\eGovAnbs\bin\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseSVN\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\JCH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\ESTsoft\ALSee\x64;.]
+15-Nov-2019 13:24:52.015 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:24:52.027 심각 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+	Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		... 12 more
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+15-Nov-2019 13:24:52.032 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:24:52.035 심각 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+	Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+		... 12 more
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:224)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+15-Nov-2019 13:24:52.039 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 676 ms
+15-Nov-2019 13:24:52.069 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Nov-2019 13:24:52.071 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+15-Nov-2019 13:24:52.082 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs]
+15-Nov-2019 13:24:52.721 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:24:53.399 경고 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [645] milliseconds.
+15-Nov-2019 13:25:14.300 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+15-Nov-2019 13:25:14.305 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+15-Nov-2019 13:25:14.305 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+15-Nov-2019 13:25:14.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Nov-2019 13:25:14.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Nov-2019 13:25:14.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Nov-2019 13:25:14.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\eGovAnbs\bin\jdk1.8.0_221\jre
+15-Nov-2019 13:25:14.306 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+15-Nov-2019 13:25:14.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Nov-2019 13:25:14.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:25:14.307 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:25:14.310 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\eGovAnbs\bin\apache-tomcat-8.5.45\conf\logging.properties
+15-Nov-2019 13:25:14.311 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Nov-2019 13:25:14.312 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Nov-2019 13:25:14.312 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Nov-2019 13:25:14.314 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Nov-2019 13:25:14.317 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:25:14.318 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:25:14.320 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\eGovAnbs\bin\apache-tomcat-8.5.45\temp
+15-Nov-2019 13:25:14.321 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\eGovAnbs\bin\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseSVN\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\JCH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\ESTsoft\ALSee\x64;.]
+15-Nov-2019 13:25:14.533 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:25:15.243 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2019 13:25:15.264 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:25:15.270 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2019 13:25:15.272 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1393 ms
+15-Nov-2019 13:25:15.304 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Nov-2019 13:25:15.307 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+15-Nov-2019 13:25:15.321 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs]
+15-Nov-2019 13:25:15.925 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:25:15.983 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs] has finished in [661] ms
+15-Nov-2019 13:25:15.986 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples]
+15-Nov-2019 13:25:16.447 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:25:16.464 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+15-Nov-2019 13:25:16.467 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+15-Nov-2019 13:25:16.484 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples] has finished in [498] ms
+15-Nov-2019 13:25:16.486 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager]
+15-Nov-2019 13:25:16.768 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:25:16.776 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager] has finished in [290] ms
+15-Nov-2019 13:25:16.777 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager]
+15-Nov-2019 13:25:17.054 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:25:17.059 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager] has finished in [282] ms
+15-Nov-2019 13:25:17.061 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT]
+15-Nov-2019 13:25:17.277 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:25:17.283 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT] has finished in [222] ms
+15-Nov-2019 13:25:17.287 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:25:17.298 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:25:17.303 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2029 ms
+15-Nov-2019 13:26:12.677 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.45
+15-Nov-2019 13:26:12.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 22:21:25 UTC
+15-Nov-2019 13:26:12.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.45.0
+15-Nov-2019 13:26:12.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+15-Nov-2019 13:26:12.684 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Nov-2019 13:26:12.685 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Nov-2019 13:26:12.685 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\eGovAnbs\bin\jdk1.8.0_221\jre
+15-Nov-2019 13:26:12.685 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+15-Nov-2019 13:26:12.686 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Nov-2019 13:26:12.686 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:26:12.686 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:26:12.688 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\eGovAnbs\bin\apache-tomcat-8.5.45\conf\logging.properties
+15-Nov-2019 13:26:12.689 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Nov-2019 13:26:12.690 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Nov-2019 13:26:12.692 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Nov-2019 13:26:12.695 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Nov-2019 13:26:12.697 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:26:12.699 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\eGovAnbs\bin\apache-tomcat-8.5.45
+15-Nov-2019 13:26:12.700 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\eGovAnbs\bin\apache-tomcat-8.5.45\temp
+15-Nov-2019 13:26:12.702 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\eGovAnbs\bin\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseSVN\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\JCH\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\ESTsoft\ALSee\x64;.]
+15-Nov-2019 13:26:12.916 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:26:13.628 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2019 13:26:13.649 정보 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:26:13.656 정보 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2019 13:26:13.658 정보 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1432 ms
+15-Nov-2019 13:26:13.700 정보 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Nov-2019 13:26:13.703 정보 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.45
+15-Nov-2019 13:26:13.715 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs]
+15-Nov-2019 13:26:14.326 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:26:14.381 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\docs] has finished in [665] ms
+15-Nov-2019 13:26:14.383 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples]
+15-Nov-2019 13:26:14.837 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:26:14.854 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+15-Nov-2019 13:26:14.856 심각 [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+15-Nov-2019 13:26:14.870 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\examples] has finished in [487] ms
+15-Nov-2019 13:26:14.871 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager]
+15-Nov-2019 13:26:15.121 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:26:15.129 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\host-manager] has finished in [258] ms
+15-Nov-2019 13:26:15.130 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager]
+15-Nov-2019 13:26:15.445 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:26:15.453 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\manager] has finished in [323] ms
+15-Nov-2019 13:26:15.455 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT]
+15-Nov-2019 13:26:15.706 정보 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Nov-2019 13:26:15.711 정보 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\eGovAnbs\bin\apache-tomcat-8.5.45\webapps\ROOT] has finished in [256] ms
+15-Nov-2019 13:26:15.714 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+15-Nov-2019 13:26:15.724 정보 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+15-Nov-2019 13:26:15.728 정보 [main] org.apache.catalina.startup.Catalina.start Server startup in 2066 ms

@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jul 01 20:43:10 KST 2025
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1751370190937
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-war-plugin\:pom\:3.3.2 from/to central (https\://repo.maven.apache.org/maven2)\: D\:\\ANB\\workspace_2025\\maven\\repository\\org\\apache\\maven\\plugins\\maven-war-plugin\\3.3.2\\maven-war-plugin-3.3.2.pom (\uC694\uCCAD\uD55C \uC791\uC5C5\uC740, \uC0AC\uC6A9\uC790\uAC00 \uB9E4\uD551\uD55C \uAD6C\uC5ED\uC774 \uC5F4\uB824 \uC788\uB294 \uC0C1\uD0DC\uC778 \uD30C\uC77C\uC5D0\uC11C \uC218\uD589\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4)
