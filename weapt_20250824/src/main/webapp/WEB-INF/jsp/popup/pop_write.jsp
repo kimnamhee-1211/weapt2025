@@ -12,17 +12,15 @@
                             </div>  
                             <div class="section2">
                                 <div class="section2_line1">
-                                    <form action="." method="post">
-                                        <span>제목 :&nbsp;
-                                            <input type="text" id="title" class="box_width450">                        
-                                        </span>
-                                        <span>&ensp;작성자 :&nbsp;
-                                            <input type="text" id="writer" class="box_width100">                        
-                                        </span>
-                                        <span>&ensp;작성일 :&nbsp;
-                                            <input type="date" id="today" value="<%= today %>">                        
-                                        </span>
-                                    </form>
+                                      <span>제목 :&nbsp;
+                                          <input type="text" id="BOARD_TITLE" class="box_width450">                        
+                                      </span>
+                                      <span>&ensp;작성자 :&nbsp;
+                                          <input type="text" id="BOARD_CONTENT" class="box_width100">                        
+                                      </span>
+                                      <span>&ensp;작성일 :&nbsp;
+                                          <input type="date" id="BOARD_DATE" value="<%= today %>">                        
+                                      </span>
                                 </div>
                             </div>                            
                             <div>
