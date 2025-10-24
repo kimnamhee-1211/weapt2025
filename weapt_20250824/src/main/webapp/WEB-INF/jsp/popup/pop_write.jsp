@@ -46,6 +46,7 @@
     const boardNo;
     const officeCode;
 
+    const attNo;
     const fileName;
     const fileData;
     const filePath;
